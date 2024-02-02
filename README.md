@@ -1,21 +1,36 @@
 # home-assistant-standalone-speedtest
 
 ## Running the test
+
+```bash
 python3 -m unittest discover -s tests -p 'test_*.py'
+```
 
 ## Generate requirements
+
+```bash
 pip install pipreqs
 pipreqs . --force
+```
 
 ## Prerequisites
+
+```bash
 pip install -r requirements.txt
+```
 
 ## Script
 Copy this script to your local directory
 
 ## Configuration
-The top const.py contains the required global configurations
+
+```
 ├── const.py
+├── speedtest_runner
+│   ├── const.py
+```
+
+The top const.py contains the required global configurations
 
 example
 
@@ -27,8 +42,6 @@ HA_ACCESS_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 The const.py under speedtest_runner contains the sensor name that would reflect in homeassistant
-├── speedtest_runner
-│   ├── const.py
 
 example
 
