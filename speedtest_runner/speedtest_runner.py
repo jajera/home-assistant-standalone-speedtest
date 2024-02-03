@@ -166,7 +166,7 @@ class SpeedTestRunner:
                 attributes=upload_attributes,
             ),
             PingResult(
-                response=ping_response,
+                response=round(ping_response, 0),
                 sensor_name=PING_SENSOR_NAME,
                 attributes=ping_attributes,
             ),
