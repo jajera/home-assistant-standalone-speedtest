@@ -1,4 +1,4 @@
-# home-assistant-standalone-speedtest
+# homeassistant-standalone_speedtest
 
 ## Running the test
 
